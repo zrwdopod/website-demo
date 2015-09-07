@@ -1,0 +1,15 @@
+# humanstxt.org/
+# 负责人和团队,使用技术
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript
+    React, Flux, SuperAgent
