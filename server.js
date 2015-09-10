@@ -56,9 +56,9 @@ module.exports =
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
-  __webpack_require__(44);
+  __webpack_require__(46);
   
-  var _lodash = __webpack_require__(53);
+  var _lodash = __webpack_require__(55);
   
   var _lodash2 = _interopRequireDefault(_lodash);
   
@@ -74,11 +74,11 @@ module.exports =
   
   var _express2 = _interopRequireDefault(_express);
   
-  var _reactDomServer = __webpack_require__(54);
+  var _reactDomServer = __webpack_require__(56);
   
   var _reactDomServer2 = _interopRequireDefault(_reactDomServer);
   
-  var _Router = __webpack_require__(23);
+  var _Router = __webpack_require__(24);
   
   var _Router2 = _interopRequireDefault(_Router);
   
@@ -90,7 +90,7 @@ module.exports =
   //
   // 注册API中间件
   // -----------------------------------------------------------------------------
-  server.use('/api/content', __webpack_require__(24));
+  server.use('/api/content', __webpack_require__(25));
   
   //
   // 注册服务端渲染中间件
@@ -177,6 +177,8 @@ module.exports =
     }
   });
   
+  // 服务端渲染时路由
+
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "server.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
@@ -265,7 +267,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _fbjsLibInvariant = __webpack_require__(48);
+  var _fbjsLibInvariant = __webpack_require__(50);
   
   var _fbjsLibInvariant2 = _interopRequireDefault(_fbjsLibInvariant);
   
@@ -395,7 +397,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _coreLocation = __webpack_require__(37);
+  var _coreLocation = __webpack_require__(39);
   
   var _coreLocation2 = _interopRequireDefault(_coreLocation);
   
@@ -583,7 +585,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n:root {\n\n  /*\n   * Colors\n   * ======================================================================== */ /* #222 */   /* #404040 */ /* #555 */ /* #777 */ /* #eee */\n\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Animations\n   * ======================================================================== */\n\n}\n\n.Header {\n  background: #ddd;\n  color: #fff;\n}\n\n.Header-container {\n  margin: 0 auto;\n  padding: 20px 0;\n  max-width: 1000px;\n}\n\n.Header-brand {\n  color: rgb(146, 229, 252);\n  text-decoration: none;\n  font-size: 1.75em; /* ~28px */\n}\n\n.Header-brandTxt {\n  margin-left: 10px;\n}\n\n.Header-nav {\n  float: right;\n  margin-top: 6px;\n}\n\n.Header-banner {\n  text-align: center;\n}\n\n.Header-bannerTitle {\n  margin: 0;\n  padding: 10px;\n  font-weight: normal;\n  font-size: 4em;\n  line-height: 1em;\n}\n\n.Header-bannerDesc {\n  padding: 0;\n  color: #FFFFFF;\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n  margin: 0;\n}\n", ""]);
+  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n:root {\n\n  /*\n   * Colors\n   * ======================================================================== */ /* #222 */   /* #404040 */ /* #555 */ /* #777 */ /* #eee */\n\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Animations\n   * ======================================================================== */\n\n}\n\n.Header {\n  background: #ddd;\n  color: #fff;\n}\n\n.Header-container {\n  margin: 0 auto;\n  padding: 20px 0;\n  max-width: 1000px;\n}\n\n.Header-brand {\n  color: rgb(228, 139, 147);\n  text-decoration: none;\n  font-size: 1.75em; /* ~28px */\n}\n\n.Header-brandTxt {\n  margin-left: 10px;\n}\n\n.Header-nav {\n  float: right;\n  margin-top: 6px;\n}\n\n.Header-banner {\n  text-align: center;\n}\n\n.Header-bannerTitle {\n  margin: 0;\n  padding: 10px;\n  font-weight: normal;\n  font-size: 4em;\n  line-height: 1em;\n}\n\n.Header-bannerDesc {\n  padding: 0;\n  color: #FFFFFF;\n  color: rgba(255, 255, 255, .5);\n  font-size: 1.25em;\n  margin: 0;\n}\n", ""]);
   
   // exports
 
@@ -597,7 +599,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n:root {\n\n  /*\n   * Colors\n   * ======================================================================== */ /* #222 */   /* #404040 */ /* #555 */ /* #777 */ /* #eee */\n\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Animations\n   * ======================================================================== */\n\n}\n\n.LoginPage-container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", ""]);
+  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n:root {\n\n  /*\n   * Colors\n   * ======================================================================== */ /* #222 */   /* #404040 */ /* #555 */ /* #777 */ /* #eee */\n\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Animations\n   * ======================================================================== */\n\n}\n\n.IndexPage-container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", ""]);
   
   // exports
 
@@ -611,7 +613,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n.Navigation-link {\n  display: inline-block;\n  padding: 3px 8px;\n  text-decoration: none;\n  font-size: 1.125em; /* ~18px */\n}\n\n.Navigation-link,\n.Navigation-link:active,\n.Navigation-link:visited {\n  color: #FFFFFF;\n  color: rgba(255, 255, 255, .6);\n}\n\n.Navigation-link:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.Navigation-link--highlight {\n  margin-right: 8px;\n  margin-left: 8px;\n  border-radius: 3px;\n  background: #000000;\n  background: rgba(0, 0, 0, .15);\n  color: #fff;\n}\n\n.Navigation-link--highlight:hover {\n  background: #000000;\n  background: rgba(0, 0, 0, .3);\n}\n\n.Navigation-spacer {\n  color: #FFFFFF;\n  color: rgba(255, 255, 255, .3);\n}\n", ""]);
+  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n:root {\n\n  /*\n   * Colors\n   * ======================================================================== */ /* #222 */   /* #404040 */ /* #555 */ /* #777 */ /* #eee */\n\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Animations\n   * ======================================================================== */\n\n}\n\n.LoginPage-container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", ""]);
   
   // exports
 
@@ -625,7 +627,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n* {\n  margin: 0;\n  line-height: 1.2;\n}\n\nhtml {\n  display: table;\n  width: 100%;\n  height: 100%;\n  color: #888;\n  text-align: center;\n  font-family: sans-serif;\n}\n\nbody {\n  display: table-cell;\n  margin: 2em auto;\n  vertical-align: middle;\n}\n\nh1 {\n  color: #555;\n  font-weight: 400;\n  font-size: 2em;\n}\n\np {\n  margin: 0 auto;\n  width: 280px;\n}\n\n@media only screen and (max-width: 280px) {\n\n  body, p {\n    width: 95%;\n  }\n\n  h1 {\n    font-size: 1.5em;\n    margin: 0 0 0.3em;\n  }\n\n}\n", ""]);
+  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n.Navigation-link {\n  display: inline-block;\n  padding: 3px 8px;\n  text-decoration: none;\n  font-size: 1.125em; /* ~18px */\n}\n\n.Navigation-link,\n.Navigation-link:active,\n.Navigation-link:visited {\n  color: #FFFFFF;\n  color: rgba(255, 255, 255, .6);\n}\n\n.Navigation-link:hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n.Navigation-link--highlight {\n  margin-right: 8px;\n  margin-left: 8px;\n  border-radius: 3px;\n  background: #000000;\n  background: rgba(0, 0, 0, .15);\n  color: #fff;\n}\n\n.Navigation-link--highlight:hover {\n  background: #000000;\n  background: rgba(0, 0, 0, .3);\n}\n\n.Navigation-spacer {\n  color: #FFFFFF;\n  color: rgba(255, 255, 255, .3);\n}\n", ""]);
   
   // exports
 
@@ -639,13 +641,27 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n:root {\n\n  /*\n   * Colors\n   * ======================================================================== */ /* #222 */   /* #404040 */ /* #555 */ /* #777 */ /* #eee */\n\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Animations\n   * ======================================================================== */\n\n}\n\n.RegisterPage-container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", ""]);
+  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n* {\n  margin: 0;\n  line-height: 1.2;\n}\n\nhtml {\n  display: table;\n  width: 100%;\n  height: 100%;\n  color: #888;\n  text-align: center;\n  font-family: sans-serif;\n}\n\nbody {\n  display: table-cell;\n  margin: 2em auto;\n  vertical-align: middle;\n}\n\nh1 {\n  color: #555;\n  font-weight: 400;\n  font-size: 2em;\n}\n\np {\n  margin: 0 auto;\n  width: 280px;\n}\n\n@media only screen and (max-width: 280px) {\n\n  body, p {\n    width: 95%;\n  }\n\n  h1 {\n    font-size: 1.5em;\n    margin: 0 0 0.3em;\n  }\n\n}\n", ""]);
   
   // exports
 
 
 /***/ },
 /* 20 */
+/***/ function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+  
+  
+  // module
+  exports.push([module.id, "/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n/* 京东移动前端构建器 | MIT License | 站点建设中 */\n\n:root {\n\n  /*\n   * Colors\n   * ======================================================================== */ /* #222 */   /* #404040 */ /* #555 */ /* #777 */ /* #eee */\n\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n\n  /*\n   * Animations\n   * ======================================================================== */\n\n}\n\n.RegisterPage-container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n", ""]);
+  
+  // exports
+
+
+/***/ },
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -694,7 +710,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Match.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 21 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -716,11 +732,11 @@ module.exports =
   
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
   
-  var _pathToRegexp = __webpack_require__(41);
+  var _pathToRegexp = __webpack_require__(43);
   
   var _pathToRegexp2 = _interopRequireDefault(_pathToRegexp);
   
-  var _Match = __webpack_require__(20);
+  var _Match = __webpack_require__(21);
   
   var _Match2 = _interopRequireDefault(_Match);
   
@@ -750,7 +766,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Route.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 22 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -774,7 +790,7 @@ module.exports =
   
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
   
-  var _Route = __webpack_require__(21);
+  var _Route = __webpack_require__(22);
   
   var _Route2 = _interopRequireDefault(_Route);
   
@@ -1081,7 +1097,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Router.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 23 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -1102,39 +1118,43 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _reactRoutingSrcRouter = __webpack_require__(22);
+  var _reactRoutingSrcRouter = __webpack_require__(23);
   
   var _reactRoutingSrcRouter2 = _interopRequireDefault(_reactRoutingSrcRouter);
   
-  var _coreHttpClient = __webpack_require__(36);
+  var _coreHttpClient = __webpack_require__(38);
   
   var _coreHttpClient2 = _interopRequireDefault(_coreHttpClient);
   
-  var _componentsApp = __webpack_require__(25);
+  var _componentsApp = __webpack_require__(26);
   
   var _componentsApp2 = _interopRequireDefault(_componentsApp);
   
-  var _componentsContentPage = __webpack_require__(27);
+  var _componentsIndexPage = __webpack_require__(33);
+  
+  var _componentsIndexPage2 = _interopRequireDefault(_componentsIndexPage);
+  
+  var _componentsContentPage = __webpack_require__(28);
   
   var _componentsContentPage2 = _interopRequireDefault(_componentsContentPage);
   
-  var _componentsContactPage = __webpack_require__(26);
+  var _componentsContactPage = __webpack_require__(27);
   
   var _componentsContactPage2 = _interopRequireDefault(_componentsContactPage);
   
-  var _componentsLoginPage = __webpack_require__(32);
+  var _componentsLoginPage = __webpack_require__(34);
   
   var _componentsLoginPage2 = _interopRequireDefault(_componentsLoginPage);
   
-  var _componentsRegisterPage = __webpack_require__(35);
+  var _componentsRegisterPage = __webpack_require__(37);
   
   var _componentsRegisterPage2 = _interopRequireDefault(_componentsRegisterPage);
   
-  var _componentsNotFoundPage = __webpack_require__(34);
+  var _componentsNotFoundPage = __webpack_require__(36);
   
   var _componentsNotFoundPage2 = _interopRequireDefault(_componentsNotFoundPage);
   
-  var _componentsErrorPage = __webpack_require__(28);
+  var _componentsErrorPage = __webpack_require__(29);
   
   var _componentsErrorPage2 = _interopRequireDefault(_componentsErrorPage);
   
@@ -1158,6 +1178,33 @@ module.exports =
             ));
   
           case 4:
+          case 'end':
+            return context$2$0.stop();
+        }
+      }, null, _this);
+    });
+  
+    // 纯本地应用路由，比如要在cordova中打包
+    on('/templates/index.html', function callee$1$0() {
+      return regeneratorRuntime.async(function callee$1$0$(context$2$0) {
+        while (1) switch (context$2$0.prev = context$2$0.next) {
+          case 0:
+            return context$2$0.abrupt('return', _react2['default'].createElement(_componentsIndexPage2['default'], null));
+  
+          case 1:
+          case 'end':
+            return context$2$0.stop();
+        }
+      }, null, _this);
+    });
+  
+    on('/', function callee$1$0() {
+      return regeneratorRuntime.async(function callee$1$0$(context$2$0) {
+        while (1) switch (context$2$0.prev = context$2$0.next) {
+          case 0:
+            return context$2$0.abrupt('return', _react2['default'].createElement(_componentsIndexPage2['default'], null));
+  
+          case 1:
           case 'end':
             return context$2$0.stop();
         }
@@ -1203,6 +1250,7 @@ module.exports =
       }, null, _this);
     });
   
+    // AJAX请求资源
     on('*', function callee$1$0(state) {
       var content;
       return regeneratorRuntime.async(function callee$1$0$(context$2$0) {
@@ -1241,7 +1289,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Router.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 24 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -1262,15 +1310,15 @@ module.exports =
   
   var _express = __webpack_require__(6);
   
-  var _jade = __webpack_require__(52);
+  var _jade = __webpack_require__(54);
   
   var _jade2 = _interopRequireDefault(_jade);
   
-  var _frontMatter = __webpack_require__(49);
+  var _frontMatter = __webpack_require__(51);
   
   var _frontMatter2 = _interopRequireDefault(_frontMatter);
   
-  var _utilsFs = __webpack_require__(40);
+  var _utilsFs = __webpack_require__(42);
   
   var _utilsFs2 = _interopRequireDefault(_utilsFs);
   
@@ -1362,7 +1410,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "content.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 25 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -1389,7 +1437,7 @@ module.exports =
   
   var _AppCss2 = _interopRequireDefault(_AppCss);
   
-  var _decoratorsWithContext = __webpack_require__(38);
+  var _decoratorsWithContext = __webpack_require__(40);
   
   var _decoratorsWithContext2 = _interopRequireDefault(_decoratorsWithContext);
   
@@ -1397,15 +1445,15 @@ module.exports =
   
   var _decoratorsWithStyles2 = _interopRequireDefault(_decoratorsWithStyles);
   
-  var _Header = __webpack_require__(31);
+  var _Header = __webpack_require__(32);
   
   var _Header2 = _interopRequireDefault(_Header);
   
-  var _Feedback = __webpack_require__(29);
+  var _Feedback = __webpack_require__(30);
   
   var _Feedback2 = _interopRequireDefault(_Feedback);
   
-  var _Footer = __webpack_require__(30);
+  var _Footer = __webpack_require__(31);
   
   var _Footer2 = _interopRequireDefault(_Footer);
   
@@ -1447,7 +1495,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "App.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 26 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -1606,7 +1654,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "ContactPage.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 27 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -1688,7 +1736,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "ContentPage.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 28 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -1764,7 +1812,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "ErrorPage.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 29 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -1840,7 +1888,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Feedback.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 30 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -1867,7 +1915,7 @@ module.exports =
   
   var _FooterCss2 = _interopRequireDefault(_FooterCss);
   
-  var _decoratorsWithViewport = __webpack_require__(39);
+  var _decoratorsWithViewport = __webpack_require__(41);
   
   var _decoratorsWithViewport2 = _interopRequireDefault(_decoratorsWithViewport);
   
@@ -1887,7 +1935,7 @@ module.exports =
     _createClass(Footer, [{
       key: 'render',
       value: function render() {
-        // This is just an example how one can render CSS
+        // CSS渲染示例
         var _props$viewport = this.props.viewport;
         var width = _props$viewport.width;
         var height = _props$viewport.height;
@@ -1971,7 +2019,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Footer.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 31 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2006,7 +2054,7 @@ module.exports =
   
   var _Link2 = _interopRequireDefault(_Link);
   
-  var _Navigation = __webpack_require__(33);
+  var _Navigation = __webpack_require__(35);
   
   var _Navigation2 = _interopRequireDefault(_Navigation);
   
@@ -2027,7 +2075,7 @@ module.exports =
             _react2['default'].createElement(
               'a',
               { className: 'Header-brand', href: '/', onClick: _Link2['default'].handleClick },
-              _react2['default'].createElement('img', { className: 'Header-brandImg', src: __webpack_require__(43), width: '38', height: '38', alt: 'React' }),
+              _react2['default'].createElement('img', { className: 'Header-brandImg', src: __webpack_require__(45), width: '38', height: '38', alt: 'React' }),
               _react2['default'].createElement(
                 'span',
                 { className: 'Header-brandTxt' },
@@ -2065,7 +2113,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Header.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 32 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2088,7 +2136,166 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _LoginPageCss = __webpack_require__(16);
+  var _IndexPageCss = __webpack_require__(16);
+  
+  var _IndexPageCss2 = _interopRequireDefault(_IndexPageCss);
+  
+  var _decoratorsWithStyles = __webpack_require__(3);
+  
+  var _decoratorsWithStyles2 = _interopRequireDefault(_decoratorsWithStyles);
+  
+  var IndexPage = (function () {
+    function IndexPage() {
+      _classCallCheck(this, _IndexPage);
+    }
+  
+    _createClass(IndexPage, [{
+      key: 'render',
+      value: function render() {
+        var title = '首页';
+        this.context.onSetTitle(title);
+        return _react2['default'].createElement(
+          'div',
+          { className: 'IndexPage' },
+          _react2['default'].createElement(
+            'div',
+            { className: 'IndexPage-container' },
+            _react2['default'].createElement(
+              'h1',
+              null,
+              title
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              '首页'
+            )
+          )
+        );
+      }
+    }], [{
+      key: 'contextTypes',
+      value: {
+        onSetTitle: _react.PropTypes.func.isRequired
+      },
+      enumerable: true
+    }]);
+  
+    var _IndexPage = IndexPage;
+    IndexPage = (0, _decoratorsWithStyles2['default'])(_IndexPageCss2['default'])(IndexPage) || IndexPage;
+    return IndexPage;
+  })();
+  
+  exports['default'] = IndexPage;
+  module.exports = exports['default'];
+
+  /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "IndexPage.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+
+/***/ },
+/* 34 */
+/***/ function(module, exports, __webpack_require__) {
+
+  /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+  
+  /*! 京东移动前端构建器 | MIT License | 站点建设中 */
+  
+  'use strict';
+  
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
+  
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+  
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+  
+  var _react = __webpack_require__(1);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _LoginPageCss = __webpack_require__(17);
   
   var _LoginPageCss2 = _interopRequireDefault(_LoginPageCss);
   
@@ -2120,7 +2327,7 @@ module.exports =
             _react2['default'].createElement(
               'p',
               null,
-              '...'
+              '登录登录登录登录登录登录登录登录登录登录登录登录登录登录登录'
             )
           )
         );
@@ -2144,7 +2351,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "LoginPage.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 33 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2167,11 +2374,11 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _classnames = __webpack_require__(45);
+  var _classnames = __webpack_require__(47);
   
   var _classnames2 = _interopRequireDefault(_classnames);
   
-  var _NavigationCss = __webpack_require__(17);
+  var _NavigationCss = __webpack_require__(18);
   
   var _NavigationCss2 = _interopRequireDefault(_NavigationCss);
   
@@ -2245,7 +2452,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Navigation.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 34 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2272,7 +2479,7 @@ module.exports =
   
   var _decoratorsWithStyles2 = _interopRequireDefault(_decoratorsWithStyles);
   
-  var _NotFoundPageCss = __webpack_require__(18);
+  var _NotFoundPageCss = __webpack_require__(19);
   
   var _NotFoundPageCss2 = _interopRequireDefault(_NotFoundPageCss);
   
@@ -2322,7 +2529,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "NotFoundPage.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 35 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2349,7 +2556,7 @@ module.exports =
   
   var _decoratorsWithStyles2 = _interopRequireDefault(_decoratorsWithStyles);
   
-  var _RegisterPageCss = __webpack_require__(19);
+  var _RegisterPageCss = __webpack_require__(20);
   
   var _RegisterPageCss2 = _interopRequireDefault(_RegisterPageCss);
   
@@ -2377,7 +2584,7 @@ module.exports =
             _react2['default'].createElement(
               'p',
               null,
-              '...'
+              '注册注册注册注册注册注册注册注册注册注册注册注册'
             )
           )
         );
@@ -2401,7 +2608,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "RegisterPage.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 36 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2416,7 +2623,7 @@ module.exports =
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
-  var _superagent = __webpack_require__(55);
+  var _superagent = __webpack_require__(57);
   
   var _superagent2 = _interopRequireDefault(_superagent);
   
@@ -2454,7 +2661,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "HttpClient.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 37 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2471,11 +2678,11 @@ module.exports =
   
   var _fbjsLibExecutionEnvironment = __webpack_require__(4);
   
-  var _historyLibCreateBrowserHistory = __webpack_require__(50);
+  var _historyLibCreateBrowserHistory = __webpack_require__(52);
   
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
   
-  var _historyLibUseQueries = __webpack_require__(51);
+  var _historyLibUseQueries = __webpack_require__(53);
   
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
   
@@ -2487,7 +2694,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Location.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 38 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2512,7 +2719,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _fbjsLibEmptyFunction = __webpack_require__(47);
+  var _fbjsLibEmptyFunction = __webpack_require__(49);
   
   var _fbjsLibEmptyFunction2 = _interopRequireDefault(_fbjsLibEmptyFunction);
   
@@ -2575,7 +2782,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "withContext.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 39 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2604,7 +2811,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _eventemitter3 = __webpack_require__(46);
+  var _eventemitter3 = __webpack_require__(48);
   
   var _eventemitter32 = _interopRequireDefault(_eventemitter3);
   
@@ -2677,7 +2884,7 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "withViewport.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 40 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
   /* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -2720,10 +2927,10 @@ module.exports =
   /* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/home/zengruiwen/WebstormProjects/JDM/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "fs.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 41 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
-  var isarray = __webpack_require__(42)
+  var isarray = __webpack_require__(44)
   
   /**
    * Expose `pathToRegexp`.
@@ -3116,7 +3323,7 @@ module.exports =
 
 
 /***/ },
-/* 42 */
+/* 44 */
 /***/ function(module, exports) {
 
   module.exports = Array.isArray || function (arr) {
@@ -3125,79 +3332,79 @@ module.exports =
 
 
 /***/ },
-/* 43 */
+/* 45 */
 /***/ function(module, exports) {
 
   module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAIAAAAnX375AAAACXBIWXMAABcSAAAXEgFnn9JSAAAAB3RJTUUH3wkGAjkACsdgIwAABEtJREFUWMPtl11sk1UYx59z3o+e9u3a2rWCW7svUAe4MbOgFxoIRrjQGIzxAtQLSNgWhRBiREBNBL2QRE00CogXM0aRREk0GDQhYkLizCKZQEJS9gGjC2xru9G+Xfu2fd9zzuPFJmHJso3FEi/2XJ6cc37n+fo/OQQR4d4ahXtui8hF5CLy/4dU57Pp1q20280YY5ZVyE1aPm+aWUqpruter9cwDObSfT4fYy4AIITMchuZU/Asy7o6eL23t6++tjZv5S2riCjNjCkkr62tC1YGvV6fy6ULLgDkd8ePM8Y6Oto1TVu4l5lsDiX29w0kkqnlDfUtLc2G1+s4TjqdAQBKqZWbGB8vcocrirJ+/Xpp27Pw5vZy4Oo108zGh4YeX9N6+vSv/QMDgUDA4zFaWlankklCqWEYPp+PMUYJ6b8SqwxVPr1x4+w+zIE8dernv86fb2/bXlNTg4ixWOzwkS8ikUhTU3Mg4FdVVVVVBLCLxe6uPza/tKU6EpkzbGQBw6ur688LFy8mEslVTU0Bf2BkKO6tMJ7btIkxNp/jZGHzUko5euPG0T1vLq2ufnbnjrr6epi1Su+6SWZ8q4NkywsvBhVY2tBQdikwsxNnfvs9fH+YNDe5N2wol/pkMiYAOA6/cXN43/63mEsbHh4ZTyX9fv9dx2eeueScx+PxdMYMhUJDQ0MSkQKEQ+EVKxvLIngAoKpqNBpNZ8y+vv6VKxqFEMHgfRMTuTLKupSy5+8LkUj1urVPImA0GjEMw3GchRTetMAiIheyVCKUUI9nao1zWShIj0dTFG5mVb+vVCi4GANCHM5VBKKpyDlyIYtFQgnRXUTXsFRybqW1UCUICQDUzW530TSktKzM2XOp4z8Yjzajw6PvvCFy+fjb7+vRiKdpxfj3P3pWNRZ6B6p2tqXPnqve/RoA9G99dfmxT61rg6mvT8hSiRCgjC1p22Zd6cv8csaz+hFXTYTqesVjrdTjniGXKFHm8kTIyN7dNz85Yt8ciR/4YNnhj6iup06crPvwPS0YzMd6hz/+3B5NhF/ZPHbiJFEUlALzlqu+xtP4MFCau3BJmCbVNN+6JxJffhU9sF8LVRI3mzmXVNcRERAAQPV6iapgySG6DgAgJHW7AUCt8IpcrvbQwfjed0Gh3jWtgMgeXDbR3YPFIqDMnj3nbnzIVRdFzhXDY12Ojf90+s4JOg05eqxTq66SUiQ6v8lfjmW6uhs+O3Rt9/6Ro5004B/YvivR+e31fQerXt9BNS34/DNLtr1MKAFCnETygV0d0uF6OFy1Z5edSOZ6LvmfWktc7qXtW4uD8Wn1g3eYnUghop0as1NjiCi5QERhFezk2NSG0QQiStuRDp9cEVYBpRQle/IgSolSSsdxMqYoFnl2AhGlbUvHuU0hi9+gReR/hBRCCCHKjZyq2FKpNDkuOOeIKIRgjCmKUkbkVMf8qxGISCktr5f30v4BZR1Xx7BD++gAAAAASUVORK5CYII="
 
 /***/ },
-/* 44 */
+/* 46 */
 /***/ function(module, exports) {
 
   module.exports = require("babel/polyfill");
 
 /***/ },
-/* 45 */
+/* 47 */
 /***/ function(module, exports) {
 
   module.exports = require("classnames");
 
 /***/ },
-/* 46 */
+/* 48 */
 /***/ function(module, exports) {
 
   module.exports = require("eventemitter3");
 
 /***/ },
-/* 47 */
+/* 49 */
 /***/ function(module, exports) {
 
   module.exports = require("fbjs/lib/emptyFunction");
 
 /***/ },
-/* 48 */
+/* 50 */
 /***/ function(module, exports) {
 
   module.exports = require("fbjs/lib/invariant");
 
 /***/ },
-/* 49 */
+/* 51 */
 /***/ function(module, exports) {
 
   module.exports = require("front-matter");
 
 /***/ },
-/* 50 */
+/* 52 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
-/* 51 */
+/* 53 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ },
-/* 52 */
+/* 54 */
 /***/ function(module, exports) {
 
   module.exports = require("jade");
 
 /***/ },
-/* 53 */
+/* 55 */
 /***/ function(module, exports) {
 
   module.exports = require("lodash");
 
 /***/ },
-/* 54 */
+/* 56 */
 /***/ function(module, exports) {
 
   module.exports = require("react-dom/server");
 
 /***/ },
-/* 55 */
+/* 57 */
 /***/ function(module, exports) {
 
   module.exports = require("superagent");
