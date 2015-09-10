@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f0aa7c8ee4bbaaeeca35"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ad72f2d5b55099ac9b99"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -21629,6 +21629,59 @@
     });
   
     // 纯本地应用路由，比如要在cordova中打包
+  
+    on('/home/zengruiwen/WebstormProjects/JDM/build/templates/index.html', function callee$1$0() {
+      return regeneratorRuntime.async(function callee$1$0$(context$2$0) {
+        while (1) switch (context$2$0.prev = context$2$0.next) {
+          case 0:
+            return context$2$0.abrupt('return', _react2['default'].createElement(_componentsIndexPage2['default'], null));
+  
+          case 1:
+          case 'end':
+            return context$2$0.stop();
+        }
+      }, null, _this);
+    });
+  
+    on('/android_asset/www/index.html', function callee$1$0() {
+      return regeneratorRuntime.async(function callee$1$0$(context$2$0) {
+        while (1) switch (context$2$0.prev = context$2$0.next) {
+          case 0:
+            return context$2$0.abrupt('return', _react2['default'].createElement(_componentsIndexPage2['default'], null));
+  
+          case 1:
+          case 'end':
+            return context$2$0.stop();
+        }
+      }, null, _this);
+    });
+  
+    on('/android_asset/www/templates/index.html', function callee$1$0() {
+      return regeneratorRuntime.async(function callee$1$0$(context$2$0) {
+        while (1) switch (context$2$0.prev = context$2$0.next) {
+          case 0:
+            return context$2$0.abrupt('return', _react2['default'].createElement(_componentsIndexPage2['default'], null));
+  
+          case 1:
+          case 'end':
+            return context$2$0.stop();
+        }
+      }, null, _this);
+    });
+  
+    on('/templates/index.html', function callee$1$0() {
+      return regeneratorRuntime.async(function callee$1$0$(context$2$0) {
+        while (1) switch (context$2$0.prev = context$2$0.next) {
+          case 0:
+            return context$2$0.abrupt('return', _react2['default'].createElement(_componentsIndexPage2['default'], null));
+  
+          case 1:
+          case 'end':
+            return context$2$0.stop();
+        }
+      }, null, _this);
+    });
+  
     on('/JDM/build/templates/index.html', function callee$1$0() {
       return regeneratorRuntime.async(function callee$1$0$(context$2$0) {
         while (1) switch (context$2$0.prev = context$2$0.next) {
