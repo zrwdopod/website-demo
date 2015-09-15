@@ -13,6 +13,7 @@
     "fastclick": "1.0.6",
     "fbjs": "0.1.0-alpha.12",
     "flux": "2.1.1",
+    "object-assign": "^1.0.0",
     "front-matter": "1.0.0",
     "history": "1.8.1",
     "jade": "1.11.0",
@@ -72,7 +73,9 @@
     "bundle": "babel-node --eval \"require('./tools/bundle')().catch(err => console.log(err.stack))\"",
     "build": "babel-node --eval \"require('./tools/build')().catch(err => console.log(err.stack))\"",
     "serve": "babel-node --eval \"require('./tools/serve')().catch(err => console.log(err.stack))\"",
-    "start": "node server.js"
+    "start": "node server.js",
+    "release": "babel-node --eval \"require('./tools/release')().catch(err => console.log(err.stack))\" release",
+    "releaseforpg": "babel-node --eval \"require('./tools/releaseforpg')().catch(err => console.log(err.stack))\" release forpg",
     "deploy": "babel-node --eval \"require('./tools/deploy')().catch(err => console.log(err.stack))\""
   }
 }
